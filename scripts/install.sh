@@ -49,7 +49,7 @@ pip install -q pyinstaller
 
 # Build executable
 echo "🔨 Building executable..."
-pyinstaller --onefile --name ving ping_chart.py
+pyinstaller --onefile --name ving ving.py
 
 # Install to system
 echo "📍 Installing to /usr/local/bin..."

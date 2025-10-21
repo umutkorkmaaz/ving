@@ -27,7 +27,7 @@ After installation, you can use the `ving` command.
 pip install -r requirements.txt
 
 # Make the script executable
-chmod +x ping_chart.py
+chmod +x ving.py
 ```
 
 **Note:** Root privileges may be required to send ICMP packets.
