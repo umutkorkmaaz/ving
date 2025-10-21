@@ -4,12 +4,17 @@ The Ving (Virtual Ping) application plots a chart of the latency times during se
 
 You can use the same parameters as with the standard `ping` command.
 
+### Screenshot
+
+<img width="668" height="575" alt="CleanShot 2025-10-21 at 18 45 51" src="https://github.com/user-attachments/assets/3633f982-87fd-4888-a74b-931263514314" />
+
+
+
 ## Features
 
 - Standard ping functionality (ICMP packets)
 - Statistics (min, max, avg, stddev, packet loss)
 - Colorful and modern UI
-
 
 ## Installation
 
