@@ -271,8 +271,16 @@ Examples:
         timeout=args.timeout,
         max_points=args.max_points
     )
-    
-    ving.run()
+    try:
+        ving.run()
+    except Exception as e:
+        print(f"Error: {e}", file=sys.stderr)
+        return 1
+    finally:
+        ving.clear_previous_output()
+        print("\nStopped by user")
+        return 0
+
     return 0
 
 
