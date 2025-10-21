@@ -1,6 +1,6 @@
-# Ving - Terminal-Based Virtual Ping with Latency Chart
+# Ving - Terminal-Based Visual Ping with Latency Chart
 
-The Ving (Virtual Ping) application plots a chart of the latency times during sent pings.
+The Ving (Visual Ping) application plots a chart of the latency times during sent pings.
 
 You can use the same parameters as with the standard `ping` command.
 
